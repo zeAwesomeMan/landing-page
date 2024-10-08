@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    outline: 1px red solid;
+    /* outline: 1px red solid; */
     font-family:fantasy;
     text-decoration: none;
 }
@@ -9,19 +9,23 @@ body{
     display: flex;
     flex-direction: column;
 }
+.padding-for-each-part{
+    padding: 24px 128px;
+}
 .top-part{
     display: flex;
     flex-direction: column;
     background-color: #603F26;
     height: 550px;
-    /* padding: 24px 128px; */
 }
 .header{
+    padding: 24px 128px;
     display: flex;
     flex-direction: row;
     font-size: 24px;
     color: #f9faf8;
     justify-content: space-between;
+    background-color: #6C4E31;
 }
 ul{
     display: flex;
@@ -64,4 +68,21 @@ ul, a{
     font-size: 36px;
     font-weight: 900;
     color: #603F26;
+    margin-bottom: 52px;
+}
+.image-info{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 32px;
+}
+.image-info .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info .text{
+    font-size: 18px;
+    font-weight: normal;
+    color: #603F26;
+    text-align: center;
 }
